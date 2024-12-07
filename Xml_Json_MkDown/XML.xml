@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Menjar>
+    <Arros categoria="cereal">
+        <Kilocalories>0.353 x 100g</Kilocalories>
+        <Proteines>6.2g x 100g</Proteines>
+        <Grases>0.8gr x 100g</Grases>
+    </Arros>
+    <patata categoria="tubercul">
+        <Kilocalories>0.88 x 100g</Kilocalories>
+        <Proteines>1.4g x 100g</Proteines>
+        <Grases>0.3gr x 100g</Grases>
+    </patata>
+    <tomaquet categoria="fruita">
+        <Kilocalories>0.022 x 100g</Kilocalories>
+        <Proteines>1g x 100g</Proteines>
+        <Grases>0,11gr x 100g</Grases>
+    </tomaquet>
+    <Empresa>
+        <EdificiA>
+           <Treballadors>Manolita</Treballadors>
+           <Treballadors>Pepito</Treballadors>
+            <Responsabilitats>Relació amb proveïdors</Responsabilitats>
+            <Responsabilitats>Negociació de preus</Responsabilitats>
+        </EdificiA>
+        <EdificiB>
+           <Treballadors>Pepita</Treballadors>
+           <Treballadors>Lolito</Treballadors>
+            <Responsabilitats>Comptabilitat</Responsabilitats>
+            <Responsabilitats>Nómines</Responsabilitats>
+        </EdificiB>
+    </Empresa>
+</Menjar>

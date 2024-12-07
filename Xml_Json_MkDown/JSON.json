@@ -1,0 +1,25 @@
+{
+    "menjar": [
+    {
+        "nom" : "arros",
+        "categoria" : "cereal",
+        "calories" : 353,
+        "proteines" :  6.2,
+        "grases" : 0.3
+    },
+    {
+        "nom" : "patata",
+        "categoria" : "tubercul",
+        "calories" : 88,
+        "proteines" : 1.4,
+        "grases" : 0.3       
+    },
+    {
+        "nom" : "tomaquet",
+        "categoria" : "fruita",
+        "calories" : 22,
+        "proteines" : 1,
+        "grases" : 0.11
+    }
+]
+}

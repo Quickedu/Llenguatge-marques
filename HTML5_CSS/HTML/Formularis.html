@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulari Exercici</title>
+    </head>
+    <body>
+        <h1>FORMULARI EXERCICI!</h1>
+        <form action="Formularis.html" method="post">
+            <fieldset>
+                <legend>Dades Personals</legend>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="nom" placeholder="Jane" required>
+                <br><br>
+            <label for="correu">Correu:</label>
+            <input type="email" id="correu" name="correu" placeholder="jane1234@gmail.com" required>
+                <br><br>
+            <label for="telefon">Telefon:</label>
+            <input type="tel" id="telefon" name="telefon" placeholder="666-666-666">
+                <br><br>
+            <label for="pwrd">Contrasenya</label>
+            <input type="password" name="pwrd" id="pwrd" placeholder="Hola1234" required>
+                <br><br>
+            <label for="pwrdcnfrm">Confirma la contrasenya</label>
+            <input type="password" name="pwrdcnfrm" id="pwrdcnfrm" placeholder="Hola1234" required>
+                <br><br>
+            <h4>Indica el teu genere</h4>
+            <input type="radio" id="H" name="genere" value="H"> <label for="H">Home</label> <br>
+            <input type="radio" id="D" name="genere" value="D"> <label for="D">Dona</label> <br>
+            <input type="radio" id="n/b" name="genere" value="n/b"> <label for="n/b">No Binari</label> 
+                <br><br>
+            <label for="País">País</label>
+                    <select name="País" id="País">
+                        <option value="" disabled selected>-select-</option>
+                        <option value="España">Espanya</option>
+                        <option value="França">França</option>
+                        <option value="Italia">Italia</option>
+                    </select>
+
+            </fieldset>
+            <input type="checkbox" required>Accepto els <a href="https://generator.lorem-ipsum.info/terms-and-conditions">Termes i condicions</a>
+                <br><br><br>
+            <button type="submit">ENVIAR FORMULARI</button>
+        </form>
+    </body>
+</html>

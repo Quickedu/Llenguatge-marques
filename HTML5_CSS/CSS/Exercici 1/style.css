@@ -1,0 +1,78 @@
+.required { /*canvi de color*/
+    color: #af0000;
+}
+.requiredpwrd{ /*canvi de color*/
+    color: #008f80;
+    opacity: 80%;
+}
+.enviar{ /*boto enviar amb borde la meitat d'un color blanc l'altre negre i amb bordes rodons*/
+    background: linear-gradient(to bottom #aaaaaa #000000 );
+        border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 15px #ccccff;
+}
+.enviar:active{ /*quan apretes el botó enviar, el fons a transparent*/
+        border: transparent;
+}
+.dblock{ /*per que ens surtin els valors en diferentes linies*/
+    display: block;
+}
+input{
+    border-radius: 10px 10px 10px 10px;
+}
+h1{ /*canvi de tipus de lletra, mida, color i posició*/
+    margin-left: 50px;
+    color:#22115f;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+p{ /*canvi tipus de lletra, opacitat i posició*/
+    margin-left: 70px;
+    font-family: sans-serif;
+    opacity: 70%;
+}
+
+body{/*canvi fons*/
+    background-color: #c6dee1;
+}
+legend{ /* canvi de color, bordes arrodonits, sombra, estil de lletra */
+    color: rgb(230, 65, 15);
+    font-style: italic;
+    border: 1px solid #c0c0ff;
+    background-color: #c0c0ff;
+        border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 15px #AAAAAA;
+}
+fieldset{ /* mida de box, centrat, color de fons, bordes arrodonits, sombra, */
+    width: 300px;
+    margin:auto;
+    margin-bottom:20px;
+    background-color: #ccccff;
+    line-height: 26px;
+    border: 1px solid #AAAAAA;
+        border-radius: 10px 10px 10px 10px;
+            box-shadow: 0 0 20px #AAAAAA;
+}
+input{ /*fons transparent*/
+    background: transparent;
+}
+select{ /*canvies el tipus de select perque no tingui fons (transparent) i que la lletra sigui en cursiva*/
+    background: transparent;
+    font-style: italic;
+    font-size: 12px;
+    color: rgb(80, 22, 4);
+    border-color: #00000050;
+}
+select:hover{ /*quan estas a sobre, canvia a lletra normal i color taronja*/
+    font-style: normal;
+    color: rgb(245, 91, 44);
+}
+select:focus{ /*quan estas a sobre, canvia a lletra normal i color taronja*/
+    font-style: normal;
+    color: rgb(245, 91, 44);
+}
+
+#explicaciotermes{ /*es canvia l'estil de la lletra*/
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: underline;
+}
