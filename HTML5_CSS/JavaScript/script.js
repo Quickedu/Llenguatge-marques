@@ -1,16 +1,31 @@
 document.getElementById('searchbtn').addEventListener('click', () => {
-    const alienName = document.getElementById('alienname').value.toLowerCase();
-    fetchAlienData(alienname);
+    const digiName = document.getElementById('diginame');
+    fetchDigiData(digiName);
 });
 
 document.getElementById('rndbtn').addEventListener('click', () => {
-})
+});
 
-async function fetchAlienData(alienname) {
-    const alienInfoDiv = document.getElementById('alieninfo');
-    alienInfoDiv.innerHTML = `<p>Loading ...</p>`
+async function fetchDigiData(digiName) {
+    const digiInfoDiv = document.getElementById('digiinfo');
+    digiInfoDiv.innerHTML = `<p>Loading ...</p>`
     try {
-        const response = await fetch(`https://ben10-api.herokuapp.com/aliens/6078370439565863c09f4486`)
+        const response = await fetch(`https://digimon-api.vercel.app/api/digimon/name/${digiName}`);
+        if (!response.ok){
+            throw new Error ('Digimon no trobat!');
+        }
+        const data = await response.json();
+        displayDigiData(data);
     }
-
+    catch (error){
+        document.getElementById('digiinfo').innerHTML = `<p style="color: red">${error.message}</p>`;
+    }
+}
+function displayDigiData (data){
+    const digidocuments = `
+    <h2>${data.name}</h2>
+    <img src="${data.img}" alt="${data.name}">
+    <p>"Level = ${data.level}"<p>
+    `
+    document.getElementById(digiinfo).innerHTML = digidocuments;
 }
