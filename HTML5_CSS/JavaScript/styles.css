@@ -1,0 +1,38 @@
+input{
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+button{
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    background-color: purple;
+    color: rgba(255, 255, 255, 0.444);
+    padding-left: 32px;
+    padding-right: 32px;
+}
+::placeholder{
+    color:rgba(255, 255, 255, 0.444)
+}
+body{
+    background-color: rgba(36, 99, 158, 0.537);
+}
+button:hover{
+    border: 10px black;
+}
+.imgdigi{
+    width: 150px;
+    height: auto;
+}
+#digiinfo{
+    display: block;
+}
+p{
+    font-style: italic;
+}

@@ -1,16 +1,16 @@
 document.getElementById('searchbtn').addEventListener('click', () => {
-    const digiName = document.getElementById('diginame');
+    const Input = document.getElementById('diginame');
+    const digiName = Input.value;
     fetchDigiData(digiName);
 });
-
-document.getElementById('rndbtn').addEventListener('click', () => {
-});
-
 async function fetchDigiData(digiName) {
     const digiInfoDiv = document.getElementById('digiinfo');
+    console.log(digiInfoDiv);
     digiInfoDiv.innerHTML = `<p>Loading ...</p>`
     try {
+        console.log(digiName);
         const response = await fetch(`https://digimon-api.vercel.app/api/digimon/name/${digiName}`);
+        console.log(response);
         if (!response.ok){
             throw new Error ('Digimon no trobat!');
         }
@@ -22,10 +22,11 @@ async function fetchDigiData(digiName) {
     }
 }
 function displayDigiData (data){
+    const digimon = data[0];
     const digidocuments = `
-    <h2>${data.name}</h2>
-    <img src="${data.img}" alt="${data.name}">
-    <p>"Level = ${data.level}"<p>
-    `
-    document.getElementById(digiinfo).innerHTML = digidocuments;
+    <h2>${digimon.name}</h2>
+    <img src="${digimon.img}" alt="${digimon.name}" class="imgdigi">
+    <p>Level = ${digimon.level}<p>
+    `;
+    document.getElementById('digiinfo').innerHTML = digidocuments;
 }
