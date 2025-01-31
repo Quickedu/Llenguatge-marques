@@ -24,7 +24,7 @@ async function fetchDigiData(digiName) {
 function displayDigiData (data){
     const digimon = data[0];
     const digidocuments = `
-    <h2>${digimon.name}</h2>
+    <h2 class="diginom">Name = ${digimon.name}</h2>
     <img src="${digimon.img}" alt="${digimon.name}" class="imgdigi">
     <p>Level = ${digimon.level}<p>
     `;
