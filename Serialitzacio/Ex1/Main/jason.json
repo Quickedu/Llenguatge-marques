@@ -1,0 +1,63 @@
+{
+    "factures": [
+      {
+        "id_factura": 1,
+        "data": "2024-01-15",
+        "client": {
+          "id_client": 101,
+          "nom": "Empresa XYZ",
+          "adreca": "Carrer Major, 123, Barcelona"
+        },
+        "total": 250.75,
+        "linies_factura": [
+          {
+            "id_linia": 1,
+            "descripcio": "Producte A",
+            "quantitat": 2,
+            "preu_unitari": 50.00,
+            "total_linia": 100.00
+          },
+          {
+            "id_linia": 2,
+            "descripcio": "Producte B",
+            "quantitat": 3,
+            "preu_unitari": 30.25,
+            "total_linia": 90.75
+          },
+          {
+            "id_linia": 3,
+            "descripcio": "Descompte especial",
+            "quantitat": 1,
+            "preu_unitari": -10.00,
+            "total_linia": -10.00
+          }
+        ]
+      },
+      {
+        "id_factura": 2,
+        "data": "2024-01-20",
+        "client": {
+          "id_client": 102,
+          "nom": "Client ABC",
+          "adreca": "Avinguda Central, 45, Madrid"
+        },
+        "total": 180.00,
+        "linies_factura": [
+          {
+            "id_linia": 1,
+            "descripcio": "Servei de consultoria",
+            "quantitat": 1,
+            "preu_unitari": 150.00,
+            "total_linia": 150.00
+          },
+          {
+            "id_linia": 2,
+            "descripcio": "Producte C",
+            "quantitat": 1,
+            "preu_unitari": 30.00,
+            "total_linia": 30.00
+          }
+        ]
+      }
+    ]
+  }

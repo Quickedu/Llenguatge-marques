@@ -1,0 +1,29 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialitzacio", "Serialitzacio", "{8A995E64-092E-8AD7-CC75-C3C4C650FC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Serialitzacio\Ex2\Program.csproj", "{D1ED605A-784C-4937-BBDD-2BDB230A5E88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6387D8EB-22ED-46C0-BB7F-E926AE7684EF}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1ED605A-784C-4937-BBDD-2BDB230A5E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1ED605A-784C-4937-BBDD-2BDB230A5E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1ED605A-784C-4937-BBDD-2BDB230A5E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1ED605A-784C-4937-BBDD-2BDB230A5E88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1ED605A-784C-4937-BBDD-2BDB230A5E88} = {8A995E64-092E-8AD7-CC75-C3C4C650FC70}
+	EndGlobalSection
+EndGlobal
