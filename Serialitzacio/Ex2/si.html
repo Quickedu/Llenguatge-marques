@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON TO YAML</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script> <!--Libreria de JS para transformar json a yaml-->
+</head>
+<body>
+    <h2>Conversió de JSON a YAML</h2>
+    <input type="text" id="jsonInput" placeholder="Enganxa aquí el teu JSON"></input>
+    <button onclick="convertJsonToYaml()">Convertir</button>
+    <button id="downloadButton" style="display:none;" onclick="downloadYaml()">Descarregar YAML</button>
+    <pre id="yamlOutput"></pre> <!--Pre es para mostrar texto preformateado, o sea que el codigo se vea bonito-->
+    <script>
+        var yamlData = '';
+        function convertJsonToYaml() {
+            try {
+                const jsonInput = document.getElementById('jsonInput').value;
+                const parsedData = JSON.parse(jsonInput); //Parsea el texto en un JSON valido. JSON = JavaScript Object Notation = Objeto de JavaScript
+                yamlData = jsyaml.dump(parsedData); //Convierte el JSON a YAML y lo guarda en una variable en formato yaml
+                document.getElementById('yamlOutput').textContent = yamlData; //el textcontent es lo que va dentro de las etiquetas html de abertura y cierre, ejemplo: <p>contenido</p> contenido es el textcontent
+                document.getElementById('downloadButton').style.display = 'block'; //Coge el atributo style del boton, dentro de él coge el display y lo pone en block haciendo que se muestre en la pagina
+            } catch (error) {
+                document.getElementById('yamlOutput').textContent = 'Error en la conversió: ' + error.message;
+                document.getElementById('yamlOutput').style.color = 'red';
+                document.getElementById('downloadButton').style.display = 'none'; //El boton ya de por si esta escondido, pero por si acaso lo esconde
+            }
+        }
+        function downloadYaml() {
+            const blob = new Blob([yamlData], { type: 'text/yaml' }); //Instanciamos un objeto Blob, los blobs representan datos que no necesariamente estan en un formato nativo de JavaScript
+            const downloadLink = document.createElement('a'); //a de anchor, html tag para enlaces //Si pones otro tag, creara este tipo de tag como 'button' o 'div'. document. = DOM (Document Object Model)
+            downloadLink.href = URL.createObjectURL(blob); //cuando se clica el link, se descarga lo que hay en la variable blob, que ha creado un fichero yaml con el contenido de yamlData
+            downloadLink.download = 'carla.yml';
+            document.body.appendChild(downloadLink); // append child porque <body> es el padre de <a> append significa añadir,  añades el enlace al body porque si no el enlace no existe
+            downloadLink.click(); //javascript simula un click en el enlace, por lo que se descarga el archivo
+            document.body.removeChild(downloadLink); //elimina el enlace del body, si no, se quedaria en la pagina cada link y se descargarian todos los anteriores
+        }
+    </script>
+</body>
+</html>
