@@ -1,0 +1,21 @@
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\bin\Debug\net8.0\app.exe
+C:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\bin\Debug\net8.0\app.deps.json
+C:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\bin\Debug\net8.0\app.runtimeconfig.json
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\bin\Debug\net8.0\app.dll
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\bin\Debug\net8.0\app.pdb
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\obj\Debug\net8.0\app.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\obj\Debug\net8.0\app.AssemblyInfoInputs.cache
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\obj\Debug\net8.0\app.AssemblyInfo.cs
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\obj\Debug\net8.0\app.csproj.CoreCompileInputs.cache
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\obj\Debug\net8.0\app.dll
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\obj\Debug\net8.0\refint\app.dll
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\obj\Debug\net8.0\app.pdb
+C:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\obj\Debug\net8.0\app.genruntimeconfig.cache
+C:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\app\obj\Debug\net8.0\ref\app.dll
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\Programes bàsics\obj\Debug\net8.0\app.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\Programes bàsics\obj\Debug\net8.0\app.AssemblyInfoInputs.cache
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\Programes bàsics\obj\Debug\net8.0\app.AssemblyInfo.cs
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\Programes bàsics\obj\Debug\net8.0\app.csproj.CoreCompileInputs.cache
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\Programes bàsics\obj\Debug\net8.0\app.dll
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\Programes bàsics\obj\Debug\net8.0\refint\app.dll
+c:\Users\eduar\Coses Escriptori\Estudis\DAW Cendrassos\Programació\Programes bàsics\obj\Debug\net8.0\app.pdb
