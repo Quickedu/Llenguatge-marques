@@ -1,0 +1,6 @@
+@JsonYamlConverterApi_HostAddress = http://localhost:5249
+
+GET {{JsonYamlConverterApi_HostAddress}}/Exercici_2/
+Accept: application/json
+
+###

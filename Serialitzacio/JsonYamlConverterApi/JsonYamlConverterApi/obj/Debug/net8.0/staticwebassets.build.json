@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "7t5oa5hlWhXsGMk9aBAJ6x5SYW+xWSNiCWIyOFvvvxI=",
+  "Source": "JsonYamlConverterApi",
+  "BasePath": "_content/JsonYamlConverterApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "JsonYamlConverterApi\\wwwroot",
+      "Source": "JsonYamlConverterApi",
+      "ContentRoot": "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\Serialitzacio\\JsonYamlConverterApi\\JsonYamlConverterApi\\wwwroot\\",
+      "BasePath": "_content/JsonYamlConverterApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\Serialitzacio\\JsonYamlConverterApi\\JsonYamlConverterApi\\wwwroot\\Exercici_2.html",
+      "SourceId": "JsonYamlConverterApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\Serialitzacio\\JsonYamlConverterApi\\JsonYamlConverterApi\\wwwroot\\",
+      "BasePath": "_content/JsonYamlConverterApi",
+      "RelativePath": "Exercici_2.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Exercici_2.html"
+    }
+  ]
+}

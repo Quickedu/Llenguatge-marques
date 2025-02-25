@@ -13,9 +13,9 @@ public class Program{
         private List <double> nota = new();
     public void Main (){
         while (true){
-        Console.WriteLine("Disposes de fitxer XML? (Y/N)");
-        fitxer = Console.ReadLine();
-        if (fitxer == "Y" || fitxer == "N")break;
+            Console.WriteLine("Disposes de fitxer XML? (Y/N)");
+            fitxer = Console.ReadLine();
+            if (fitxer == "Y" || fitxer == "N")break;
         }
         if (fitxer == "N"){
             crearxml();
@@ -26,6 +26,7 @@ public class Program{
             fitxer = Console.ReadLine();
         }
         doc = XDocument.Load(fitxer);
+        
 
         
         
@@ -41,8 +42,7 @@ public class Program{
         Console.WriteLine($"S'esta creant el nou alumne. A continuacio, hauras d'introduir les dades dels {total} alumnes que has indicat a crear.");
         XElement studentsElement = new XElement("Students");
 
-        for (int i = 0; i < total; i++)
-        {
+        for (int i = 0; i < total; i++){
             Console.WriteLine("NOM");
             nom = Console.ReadLine();
             Console.WriteLine("EDAT");

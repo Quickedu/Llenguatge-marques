@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON to YAML</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script> <!--JS library for JSON to YAML-->
+</head>
+<body>
+    <h2>Convertor JSON to YAML</h2>
+    <textarea id="jInpu" placeholder="Paste your JSON"></textarea>
+    <button onclick="convertJsonToYaml()">Convert</button>
+    <button id="downloadButton" style="display:none;" onclick="downloadYaml()">Download YAML</button>
+    <pre id="yOutput"></pre>
+    <script>
+        var yData = '';
+        function convertJsonToYaml() {
+            try {
+                const jInput = document.getElementById('jInput').value;
+                const pData = JSON.parse(jInput); //Parse text from valid JSON.
+                yData = jsyaml.dump(pData); //Convert JSON to YAML & save to var form yaml
+                document.getElementById('yOutput').textContent = yData; 
+                document.getElementById('downloadButton').style.display = 'block';
+            } catch (error) {
+                document.getElementById('yOutput').textContent = 'Error en la conversió: ' + error.message;
+                document.getElementById('yOutput').style.color = 'red';
+                document.getElementById('downloadButton').style.display = 'none';
+            }
+        }
+        function downloadYaml() {
+            const blob = new Blob([yData], { type: 'text/yaml' }); //Blobs represent data not necessarily in a native JS format
+            const downLink = document.createElement('a');
+            downLink.href = URL.createObjectURL(blob);
+            downLink.download = 'document.yml';
+            document.body.appendChild(downLink); // append child "a" to "body". If not, "a" does not exist 
+            downLink.click();
+            document.body.removeChild(downLink); //delete child "a" from "body". If not, every download you make, will download the current link and the previous ones 
+        }
+    </script>
+</body>
+</html>
