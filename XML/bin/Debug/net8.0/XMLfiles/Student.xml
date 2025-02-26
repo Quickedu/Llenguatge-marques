@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student id="1">
+    <Nom>edu</Nom>
+    <Edat>25</Edat>
+    <Curs>info</Curs>
+    <Notes>
+      <Nota1>2</Nota1>
+      <Nota2>5</Nota2>
+      <Nota3>4</Nota3>
+    </Notes>
+  </Student>
+  <Student id="2">
+    <Nom>pepe</Nom>
+    <Edat>19</Edat>
+    <Curs>hist</Curs>
+    <Notes>
+      <Nota1>2</Nota1>
+      <Nota2>5</Nota2>
+      <Nota3>4</Nota3>
+      <Nota4>3</Nota4>
+      <Nota5>6</Nota5>
+      <Nota6>7</Nota6>
+      <Nota7>5</Nota7>
+      <Nota8>8</Nota8>
+    </Notes>
+  </Student>
+</Students>

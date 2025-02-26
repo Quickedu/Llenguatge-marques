@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj": {}
+    "c:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj": {}
   },
   "projects": {
-    "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj": {
+    "c:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
+        "projectUniqueName": "c:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
+        "projectPath": "c:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
         "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-        "outputPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\obj\\",
+        "outputPath": "c:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eduard\\AppData\\Roaming\\NuGet\\NuGet.Config"
