@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj": {}
+    "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\Validació\\XML\\XML.csproj": {}
   },
   "projects": {
-    "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj": {
+    "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\Validació\\XML\\XML.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
-        "projectName": "app",
-        "projectPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
+        "projectUniqueName": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\Validació\\XML\\XML.csproj",
+        "projectName": "XML",
+        "projectPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\Validació\\XML\\XML.csproj",
         "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-        "outputPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\obj\\",
+        "outputPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\Validació\\XML\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eduard\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -54,24 +54,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.13, 8.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
