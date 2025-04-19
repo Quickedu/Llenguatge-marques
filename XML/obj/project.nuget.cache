@@ -1,8 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "jUaMJti0mKg=",
   "success": true,
   "projectFilePath": "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\XML\\app.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "4QUijCBwSCY=",
+  "success": true,
+  "projectFilePath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduard\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Eduard\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Eduard\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\Eduard\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.13\\microsoft.netcore.app.host.win-x64.8.0.13.nupkg.sha512"
+  ],
+>>>>>>> a2c92696e18068ab993fdb15b45a433a7242101d
   "logs": []
 }

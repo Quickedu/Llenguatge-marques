@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\XML\\app.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\XML\\app.csproj",
         "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\XML\\obj\\",
+=======
+    "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj": {}
+  },
+  "projects": {
+    "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
+        "projectName": "app",
+        "projectPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
+        "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
+        "outputPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\obj\\",
+>>>>>>> a2c92696e18068ab993fdb15b45a433a7242101d
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,7 +53,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -55,12 +70,34 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+>>>>>>> a2c92696e18068ab993fdb15b45a433a7242101d
         }
       }
     }

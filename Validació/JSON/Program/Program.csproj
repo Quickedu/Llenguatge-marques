@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JsonSchema.Net" Version="7.3.4" />
+  </ItemGroup>
+        <ItemGroup>
+    <none Update="Student.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </none>
+  </ItemGroup>
+        <ItemGroup>
+    <none Update="StudentMal.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </none>
+  </ItemGroup>
+      <ItemGroup>
+    <none Update="Validacio.xsd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </none>
+  </ItemGroup>
+
+</Project>

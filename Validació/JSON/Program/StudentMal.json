@@ -1,0 +1,31 @@
+﻿{
+  "Students": [
+    {
+      "id": 1,
+      "Nom": "edu",
+      "Edat": 25,
+      "Curs": "info",
+      "Notes": {
+        "Nota1": 2,
+        "Nota2": 5,
+        "Nota3": 4
+      }
+    },
+    {
+      "id": 2,
+      "Nom": "pepe",
+      "Edat": 19,
+      "Curs": "hist",
+      "Notes": [
+        { "id": 1, "Nota": 2 },
+        { "id": 2, "Nota": 5 },
+        { "id": 3, "Nota": 4 },
+        { "id": 4, "Nota": 3 },
+        { "id": 6, "Nota": 6 },
+        { "id": 7, "Nota": 7 },
+        { "id": 8, "Nota": 5 },
+        { "id": 9, "Nota": 8 }
+      ]
+    }
+  ]
+}
