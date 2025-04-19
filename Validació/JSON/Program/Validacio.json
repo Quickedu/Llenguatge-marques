@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Students": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "Nom": { "type": "string" },
+          "Edat": { "type": "integer" },
+          "Curs": { "type": "string" },
+          "Notes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "integer" },
+                "Nota": { "type": "integer" }
+              },
+              "required": ["id", "Nota"]
+            }
+          }
+        },
+        "required": ["id", "Nom", "Edat", "Curs", "Notes"]
+      }
+    }
+  },
+  "required": ["Students"]
+}
