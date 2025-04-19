@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JsonYamlConverterApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4214cec3bf038bfd7017923050ca0581d847d1c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02df8b2bdc828dfa559bf2d94d3264efbb8ef7e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("JsonYamlConverterApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JsonYamlConverterApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

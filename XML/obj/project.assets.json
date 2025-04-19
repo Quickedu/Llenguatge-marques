@@ -8,24 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Eduard\\.nuget\\packages\\": {}
+    "C:\\Users\\eduar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
+      "projectUniqueName": "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\XML\\app.csproj",
       "projectName": "app",
-      "projectPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\app.csproj",
-      "packagesPath": "C:\\Users\\Eduard\\.nuget\\packages\\",
-      "outputPath": "C:\\DAW\\Llenguatge de marques\\Practiques Programació\\Llenguatge-marques\\XML\\obj\\",
+      "projectPath": "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\XML\\app.csproj",
+      "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\eduar\\Coses_Escriptori\\Estudis\\DAW_Cendrassos\\Llenguatges de marques\\Llenguatge-marques\\XML\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Eduard\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

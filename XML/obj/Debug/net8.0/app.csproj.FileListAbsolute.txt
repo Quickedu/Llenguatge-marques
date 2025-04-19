@@ -36,3 +36,18 @@ c:\DAW\Llenguatge de marques\Practiques Programació\Llenguatge-marques\XML\obj\
 c:\DAW\Llenguatge de marques\Practiques Programació\Llenguatge-marques\XML\obj\Debug\net8.0\ref\app.dll
 c:\DAW\Llenguatge de marques\Practiques Programació\Llenguatge-marques\XML\bin\Debug\net8.0\XMLfiles\Student.xml
 c:\DAW\Llenguatge de marques\Practiques Programació\Llenguatge-marques\XML\bin\Debug\net8.0\XMLfiles\Students.xml
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\bin\Debug\net8.0\app.exe
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\bin\Debug\net8.0\app.deps.json
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\bin\Debug\net8.0\app.runtimeconfig.json
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\bin\Debug\net8.0\app.dll
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\bin\Debug\net8.0\app.pdb
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\app.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\app.AssemblyInfoInputs.cache
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\app.AssemblyInfo.cs
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\app.csproj.CoreCompileInputs.cache
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\app.sourcelink.json
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\app.dll
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\refint\app.dll
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\app.pdb
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\app.genruntimeconfig.cache
+c:\Users\eduar\Coses_Escriptori\Estudis\DAW_Cendrassos\Llenguatges de marques\Llenguatge-marques\XML\obj\Debug\net8.0\ref\app.dll
