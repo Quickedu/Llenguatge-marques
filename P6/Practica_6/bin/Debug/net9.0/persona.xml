@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="958">
+  <Nom>xfljtmbi</Nom>
+  <Edat>70</Edat>
+  <Mascotes>
+    <Mascota Nom="eqojp">
+      <Tipus>gat</Tipus>
+    </Mascota>
+  </Mascotes>
+</Persona>

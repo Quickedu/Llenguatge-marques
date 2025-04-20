@@ -1,5 +1,4 @@
 using System.Xml.Serialization;
-using System.Collections.Generic;
 namespace p6;
 public class Mascota{
     [XmlAttribute("Nom")]

@@ -8,16 +8,16 @@ public class Operacio : IOperacio {
 
     public void DesarPersonaAsJson(string fitxer, Persona persona) {
         string json = JsonSerializer.Serialize(persona, new JsonSerializerOptions { WriteIndented = true });
-        File.WriteAllText(fitxer.Replace(".xml", ".json"), json);
-        Console.WriteLine($"Persona desada com JSON a {fitxer.Replace(".xml", ".json")}");
+        File.WriteAllText($"{fitxer}.json", json);
+        Console.WriteLine($"Persona desada com JSON a {fitxer}.json");
     }
 
     public void DesarPersonaAsXml(string fitxer, Persona persona) {
         XmlSerializer serializer = new(typeof(Persona));
-        using (FileStream fs = new(fitxer, FileMode.Create)) {
+        using (FileStream fs = new($"{fitxer}.xml", FileMode.Create)) {
             serializer.Serialize(fs, persona);
         }
-        Console.WriteLine($"Persona desada com XML a {fitxer}");
+        Console.WriteLine($"Persona desada com XML a {fitxer}.xml");
     }
 
     public Persona GetPersonaFromJson(string fitxer) {
@@ -26,7 +26,7 @@ public class Operacio : IOperacio {
         }
         string json = File.ReadAllText(fitxer);
         var personaDeserialitzada = JsonSerializer.Deserialize<Persona>(json) ?? throw new InvalidOperationException("Error en deserialitzar el JSON.");
-        Console.WriteLine($"Persona: {personaDeserialitzada.NomCognoms}, Edat: {personaDeserialitzada.Edat}");
+        Console.WriteLine($"ID: {personaDeserialitzada.Id}, Persona: {personaDeserialitzada.NomCognoms}, Edat: {personaDeserialitzada.Edat}");
         foreach (var m in personaDeserialitzada.Mascotes) {
             Console.WriteLine($" - Mascota: {m.Nom}, Tipus: {m.Tipus}");
         }
@@ -40,7 +40,7 @@ public class Operacio : IOperacio {
         XmlSerializer serializer = new(typeof(Persona));
         using (FileStream fs = new(fitxer, FileMode.Open)) {
             var personaDeserialitzada = (Persona)(serializer.Deserialize(fs) ?? throw new InvalidOperationException("Error en deserialitzar l'XML."));
-            Console.WriteLine($"Persona: {personaDeserialitzada.NomCognoms}, Edat: {personaDeserialitzada.Edat}");
+            Console.WriteLine($"ID: {personaDeserialitzada.Id},Persona: {personaDeserialitzada.NomCognoms}, Edat: {personaDeserialitzada.Edat}");
             foreach (var m in personaDeserialitzada.Mascotes) {
                 Console.WriteLine($" - Mascota: {m.Nom}, Tipus: {m.Tipus}");
             }
